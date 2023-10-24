@@ -7,6 +7,7 @@
 
 Contributors
 
-Frontend developer [<img src="https://github.com/Lutfullo1.png" width="60px;"/><br/><sub><a href="https://github.com/Lutfullo1">Lutfullo1</a></sub>](https://github.com/Lutfullo1/shina-card-frontend)
+Frontend developer
+[<img src="https://github.com/Lutfullo1.png" width="60px;"/><br/><sub><a href="https://github.com/Lutfullo1">Lutfullo1</a></sub>](https://github.com/Lutfullo1/shina-card-frontend)
 
 
