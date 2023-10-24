@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <title>Product Card UI Design</title>
+      </head>
+      <body>
+        <div class="container">
+          <div class="card" id="card">
+            <div class="imgBx" id="imbox">
+              <img
+                id="wheel"
+                class="wheel"
+                src="./pngimg.com - car_wheel_PNG23306.png"
+                alt=""
+              />
+            </div>
+            <div class="contentBx">
+              <p class="color model">habilead 165-70-r13</p>
+              <div class="size">
+                <span>3 oy</span>
+                <span>6 oy</span>
+                <span>9 oy</span>
+              </div>
+              <div class="color">
+                <span>22%</span>
+                <span>45%</span>
+                <span>60%</span>
+              </div>
+              <p class="color price">20$</p>
+              <a href="#">Sotib olish</a>
+            </div>
+          </div>
+        </div>
+        <script>
+          const card = document.getElementById("card");
+          const wheel = document.getElementById("wheel");
+          const imgBox = document.getElementById("imbox");
+          card.addEventListener("mouseover", () => {
+            setTimeout(() => {
+              wheel.style.animationPlayState = "paused";
+            }, 2000);
+          });
+
+          card.addEventListener("mouseout", () => {
+            wheel.style.animationPlayState = "running";
+          });
+        </script>
+      </body>
+    </html>
+  </body>
+</html>
